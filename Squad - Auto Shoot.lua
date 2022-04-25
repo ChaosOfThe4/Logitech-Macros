@@ -4,7 +4,6 @@ function OnEvent(event, arg)
   if IsKeyLockOn("numlock") then
     if IsMouseButtonPressed(3) then
       repeat
-        --while IsMouseButtonPressed(1) do
         if IsMouseButtonPressed(1) then
           repeat
             PressMouseButton(1)
